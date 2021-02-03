@@ -18,10 +18,6 @@ class Block{
         if(this.visibility < 0 && this.visibility > -105 && gameState == "launched"){
           score++;
         }
-        
-        if(this.visibility < 0 && this.visibility > -105 && gameState == "onSling2"){
-          score++;
-        }
 
         if(this.visibility < 0 && this.visibility > -52.5 && gameState == "launched2"){
           score++;
